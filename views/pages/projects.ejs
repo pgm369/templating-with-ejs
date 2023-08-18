@@ -1,18 +1,43 @@
 <%- include('../partials/header') %>
-  
-  <h1><%=title%></h1>
-  
-      <p>Projects page content goes here</p>    
-      <p>Clever content goes here</p>    
-      <p>Clever content goes here</p>    
-      <p>Clever content goes here</p>
-      <p>Clever content goes here</p>    
-      <p>Clever content goes here</p>    
-      <p>Clever content goes here</p>    
-      <p>Clever content goes here</p>
-      <p>Clever content goes here</p>    
-      <p>Clever content goes here</p>    
-      <p>Clever content goes here</p>    
-      <p>Clever content goes here</p>
-     
+
+<style>
+  .about-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Add space between the image and text */
+  }
+
+  .about-image {
+    flex: 1;
+    max-width: 40%; /* Adjust the width of the image container */
+  }
+
+  .about-image img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .about-text {
+    flex: 1;
+    padding: 0 20px;
+  }
+</style>
+
+<h1><%=title%></h1>
+
+<div class="about-container">
+  <div class="about-image">
+    <img src="https://media.licdn.com/dms/image/D5603AQGxJIpI3e9HOQ/profile-displayphoto-shrink_800_800/0/1685493076446?e=1697673600&v=beta&t=9X6FJoif0Kq7ncQIYQ5eHAt5gbsJRRk_QaUh6XGVNxg" alt="Priscila's Headshot" width="400" height="500">
+  </div>
+  <div class="about-text">
+    <p><em>Greetings and Welcome Everyone!</em></p>
+<p>Throughout my coursework, I've developed a range of projects that showcase my mastery of coding languages such as HTML, CSS, JavaScript, as well as more advanced tools like Node.js and EJS.</p>
+<p>From crafting responsive designs to implementing interactive features, I've demonstrated my ability to create dynamic and user-friendly web applications. These projects stand as a testament to my dedication to mastering coding languages and my enthusiasm for creating innovative solutions.</p>
+    <p>I invite you to look at my<a href="https://pgm369.github.io/portal/"> Digital Portfolio!</a> where all my projects I have created are showcased!</p>
+    <p>I also created a small youtube channel and would love for you to look at my<a href="https://priscilagarciam.wordpress.com/"> Digital Portfolio!</a> where my youtube videos are shown!</p>
+    
+    
+  </div>
+  </div>
+
 <%- include('../partials/header') %>

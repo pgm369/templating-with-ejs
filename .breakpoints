@@ -1,0 +1,12 @@
+{
+  "files": {
+    "views/users/index.ejs": [
+      {
+        "id": "78e55b1c-5cdf-43f6-aad8-bbbc64cfff5a",
+        "line": 10,
+        "version": 49,
+        "index": 613
+      }
+    ]
+  }
+}

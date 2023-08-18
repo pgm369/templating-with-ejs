@@ -1,18 +1,43 @@
 <%- include('../partials/header') %>
-  
-  <h1><%=title%></h1>
-  
-      <p>About page content goes here</p>    
-      <p>Clever content goes here</p>    
-      <p>Clever content goes here</p>    
-      <p>Clever content goes here</p>
-      <p>Clever content goes here</p>    
-      <p>Clever content goes here</p>    
-      <p>Clever content goes here</p>    
-      <p>Clever content goes here</p>
-      <p>Clever content goes here</p>    
-      <p>Clever content goes here</p>    
-      <p>Clever content goes here</p>    
-      <p>Clever content goes here</p>
-     
+
+<style>
+  .about-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Add space between the image and text */
+  }
+
+  .about-image {
+    flex: 1;
+    max-width: 40%; /* Adjust the width of the image container */
+  }
+
+  .about-image img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .about-text {
+    flex: 1;
+    padding: 0 20px;
+  }
+</style>
+
+<h1><%=title%></h1>
+
+<div class="about-container">
+  <div class="about-image">
+    <img src="https://media.licdn.com/dms/image/D5622AQGgqVzqhXyOnA/feedshare-shrink_800/0/1687574641087?e=1695254400&v=beta&t=_uhGBdh_wu5ke-UA6HjEtFjbUcid5da4uU9ddiPJSeI" alt="Amazon Visit!">
+  </div>
+  <div class="about-text">
+    <p><em>Greetings and Welcome Everyone!</em></p>
+<p>I am Priscila Garcia-Mendoza, a dedicated emerging professional in the field of technology, fervently seeking to make my mark within the tech landscape. Presently, I am deeply engaged in the Year Up Puget Sound workforce training program, where I am diligently cultivating the requisite skills and expertise in the realm of software development.</p>    
+<p>From a young age, my unwavering passion for technology has been a driving force in my life. The relentless innovation that defines the tech industry has consistently captured my imagination, and I am thrilled to contribute to this transformative era's vanguard.</p>    
+<p>My journey through diverse industries – encompassing retail, food services, and healthcare – has fortified me with a unique skill set. I have developed an exceptional aptitude for customer service and a work ethic characterized by unwavering dedication. These attributes collectively shape me into a well-rounded professional poised to deliver substantial contributions to the tech sector.</p>    
+<p>The foundations of my technical journey were laid in my earliest encounters with computer classes during my formative years, a journey that continued through my collegiate education. My profound affinity for and comprehension of HTML, CSS, and Javascript were honed during this period. This foundational knowledge spurred me to pursue further education, culminating in my current engagement with Year Up. My horizons are expanding here as I immerse myself in mastering diverse programming languages, including the formidable JavaScript. My overarching aspiration is to emerge as a proficient front-end software developer, contributing substantively to the advancement of the field.</p>
+<p>In the realm of technology, my objective is to leverage my proven strengths in customer service and intricate problem-solving. This will enable me to make meaningful contributions to forward-thinking and innovative enterprises. I extend an invitation to explore my repository of personal projects, explore my professional trajectory on LinkedIn, and delve into my technical pursuits on GitHub using the provided links. Connect with me on LinkedIn, and together, we can explore mutually beneficial business prospects and engage in substantive discussions.</p> 
+<p>Permit me to provide a glimpse into my personal pursuits. Beyond my professional endeavors, I find solace and rejuvenation in the great outdoors, where I indulge in invigorating hikes and sun-soaked picnics. The gym serves as my sanctuary for physical well-being, complementing my penchant for indoor pursuits such as curated show marathons, intricate crochet creations, and immersive video gaming experiences.</p>
+  </div>
+  </div>
+
 <%- include('../partials/header') %>
