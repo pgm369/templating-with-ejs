@@ -1,16 +1,43 @@
 <%- include('../partials/header') %>
 
+<style>
+  .index-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Add space between the image and text */
+  }
+
+  .index-image {
+    flex: 1;
+    max-width: 40%; /* Adjust the width of the image container */
+  }
+
+  .index-image img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .index-text {
+    flex: 1;
+    padding: 0 20px;
+  }
+</style>
+
 <h1><%=title%></h1>
-  
-      <p>Clever content goes here</p>    
-      <p>Clever content goes here</p>    
-      <p>Clever content goes here</p>    
-      <p>Clever content goes here</p>
-      <p>Clever content goes here</p>    
-      <p>Clever content goes here</p>    
-      <p>Clever content goes here</p>    
-      <p>Clever content goes here</p>
-      <p>Clever content goes here</p>    
-      <p>Clever content goes here</p>    
-      <p>Clever content goes here</p>    
-      <p>Clever content goes here</p>
+
+<div class="index-container">
+  <div class="index-image">
+
+<img src="https://res.cloudinary.com/practicaldev/image/fetch/s--z0g5D4lp--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/83qp8bibhp5uxumipxve.jpeg" alt="JS">
+    
+  </div>
+  <div class="index-text">
+    <p><em>Welcome to My Portfolio!</em></p>
+      <p>This is the evolving digital showcase of my journey through the world of technology and web development. Here, you'll find a growing collection of projects that highlight my expertise in coding languages such as HTML, CSS, and JavaScript. Additionally, this website harnesses the power of Node.js, Express, and EJS to create dynamic and engaging web applications.</p>    
+      <p>As I continue to learn and refine my skills, this website is a reflection of my ongoing journey. It's not fully complete yet, as I'm constantly updating and fine-tuning it to align with my evolving tastes and preferences.</p>       
+      <p>From crafting visually engaging web designs to implementing interactive elements, I've honed my skills to create user-centered applications. Each project reflects my passion for innovation and my commitment to staying at the forefront of technological advancements.</p>
+      <p>Whether you're a fellow enthusiast, a potential collaborator, or a recruiter exploring my capabilities, I invite you to explore my portfolio. It's a testament to my growth, dedication, and unwavering curiosity in the ever-evolving landscape of technology.</p>
+  </div>
+  </div>
+
+<%- include('../partials/header') %>
